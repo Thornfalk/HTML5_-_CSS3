@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+    <title>HTML-Tags</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <nav>
+        <a href="http://localhost:1625/index.html">Första Sidan</a>
+    </nav>
+    <article>
+        <h1>Information om HTML-Tags</h1>
+        <section>
+            <h2>Tags med '<i>link</i>' funktionen</h2>
+            <p>
+                <i>links</i> är ett navigeringsverktyg kallat på svenska som <i>länkar</i> vilker gör att du kan navigera dig själv genom
+                att exempelvis klicka dig fram mellan olika websidor samt navigera på den befintliga sidan (om sidan är stor)
+            </p>
+            <ul>
+                <li><mark>a href="URL"</mark> <strong>:</strong> Länk till valfri hemsida</li>
+                <li><mark>a href="URL" target="_blank" </mark><strong>:</strong> Länk till valfri hemsida som öppnas i ett nytt fönster</li>
+                <li><mark>h2 id="variabelNamn">variabelNamn /h2</mark> <strong>:</strong> sätter ett 'id' på en header som man kan länka till på sidan</li>
+                <li><mark>a href="#namnPåVariabelMedId"</mark> <strong>:</strong> KlickbartVariabelNamnHär Länka till ett specifikt ord med 'id' på den egna websidan</li>
+                <li><mark>a href="URL"/#bottom</mark> <strong>:</strong> Gå till en specifik del av en annan websida.</li>
+                <li><mark>a href="mailto:BananJoe@example.org"</mark><strong>:</strong> skapar en länk till outlook mail för kontakt med personer</li>
+            </ul>
+        </section>
+        <br />
+        <section>
+            <h2>Tags med '<i>img</i>' funktionen</h2>
+            <p>
+                <i>images</i> är diverse <i>bilder</i> du vill ha inlagt på hemsidan. de vanligaste formaten för bilder som ska visas online är
+                i formaten jpeg, gif och png. Det finns lite små regler som säger när du ska använda vad. en vanlig tumregel är att
+                om bilden är färgstark ska med fördel en jpeg format användas och när det är mer enfärgade (eller svartvita) bilder
+                används med fördel gif eller png formaten.
+            </p>
+            <ul>
+                <li><mark>img src="sökvägenTillBilden.jpg"</mark><strong>:</strong> Säger till browsern var Bilden finns någonstans</li>
+                <li><mark>img src="sökvägenTillBilden.png" alt="BeskrivBilden"</mark><strong>:</strong> Beskriver bilden ifall du inte ser den</li>
+                <li><mark>img src="sökvägenTillBilden.gif" title="BeskrivBilden"</mark><strong>:</strong> Beskriver bilden när du 'hovrar' över den musen</li>
+                <li><mark>img src="sökvägenTillBilden.jpeg" width="600" height="450"</mark><strong>:</strong> Sätter storleken på bilden</li>
+                <li><mark>img src="sökvägenTillBilden.gif" align="left"</mark><strong>:</strong> Sätter bilden till vänster om själva texten</li>
+                <li><mark>figure</mark><strong>:</strong> Kapslar in bilder i block(syns enbart i koden) ungefär som 'head' kapslar in 'title'</li>
+                <li><mark>figcaption</mark><strong>:</strong>Läggs inne i 'figure' tillsammans med 'img src' koden och skapar en 'title' till bilden</li>
+            </ul>
+        </section>
+        <br />
+        <section>
+            <h2>Tags med '<i>table</i>' funktionen</h2>
+            <p> En <i>table</i> kan ses som ett 'excel ark' med rader och kolumner som ska visas på webben. Dessa <i>tables</i> är bra att använda
+                när man exempelvis vill hålla statistik. (exempelvis sportstatistik, tv programstider, lotterivinnare, med mera)
+                En table kan ibland bli ganska lång och en bra sak att tänka på då är att man kan använda 'thead', 'tbody' och 'tfooter'
+                för att strukturera koden.
+            </p>
+            <ul>
+                <li><mark>table</mark><strong>:</strong> En 'table' startar en ny table</li>
+                <li><mark>tr</mark><strong>:</strong> En 'table row' skapar en ny tom cell</li>
+                <li><mark>td</mark><strong>:</strong> 'Table data' skriver in vad som ska stå i cellen</li>
+                <li><mark>th</mark><strong>:</strong> En 'table heading' används på samma ställe som 'td' men representerar en 'form av titel' till tablen</li>
+                <li><mark>th scope="row"</mark><strong>:</strong> indikerar en table heading som representerar en rad</li>
+                <li><mark>th scope="col"</mark><strong>:</strong> indikerar en table heading som representerar en kolumn</li>
+                <li><mark>td colspan=""</mark><strong>:</strong> gör att du kan hoppa över vissa kolumner</li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
